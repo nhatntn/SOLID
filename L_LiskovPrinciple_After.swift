@@ -1,3 +1,7 @@
+/* Object in a program should be replaceable with instances of subtypes without
+altering the correctness of that program.
+*/
+
 protocol Polygon {
     func calculateAre() -> Float
 }
